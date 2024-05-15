@@ -1,0 +1,25 @@
+
+.responsive-nav ul li{
+    padding: 1.5em 1em;
+    margin: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.500);
+    /* border-radius: 5px; */
+    
+}
+.responsive-nav{
+    /* padding: 20px; */
+}
+.service{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-style{
+    /* color: white; */
+    background-color: #0000FF;
+    border-radius: 8px;
+}
+.btn-style a{
+    color: white;
+}
