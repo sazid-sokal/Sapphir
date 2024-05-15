@@ -29,6 +29,23 @@ li{
     justify-content: center;
     align-items: center;
 }
+h1{
+    font-family: Work Sans SemiBold;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.75px;
+    text-align: left;
+}
+.btn{
+    font-family: Work Sans;
+    padding: 15px 50px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+}
+img{
+    max-width: 100%;
+}
 
 /* nav-styles */
 nav{
@@ -131,6 +148,39 @@ justify-content: space-between;
     font-weight: 500;
 }
 
+/* ------------hero-section----------- */
+.hero-btn-01{
+    border: none;
+    background-color: #0000FF;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    color: white;
+}
+.hero-btn-02{
+    border: none;
+    background-color: #fff;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    color: #0000FF;
+}
+.container-hero-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 70px;
+}
+.hero-section-content{
+    justify-content: start;
+}
+.hero-section-content h1{
+    margin-bottom: 120px;
+}
+
+
+
+
+
+
+/* ----------------------------------------responsive----------------------------------------- */
 @media screen and (max-width: 688px) {
     nav{
         margin: 0 auto;
@@ -147,4 +197,23 @@ justify-content: space-between;
     .responsive-nav{
         display: block;
     }
+    /* ------------hero-section----------- */
+    .container-hero-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hero-section-content h1{
+        margin-bottom: 50px;
+        font-family: "Work Sans", sans-serif;
+    }
+    .container-hero-section{
+        padding: 0;
+    }
+    .hero-section-content{
+        padding: 20px 30px;
+    }
+    .hero-section-img{
+        padding: 0;
+    }
+
 }
