@@ -114,11 +114,12 @@ justify-content: space-between;
 }
 /* ---------------responsive nav-------------- */
 .responsive-nav{
+    background-color: #fff;
     display: none;
     width: 100%;
     position: fixed;
     left: -100%;
-    top: 100px;
+    top: 75px;
     transition: all .2s ease;
 }
 #click-menu-btn:checked ~ .responsive-nav{
