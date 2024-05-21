@@ -9,7 +9,7 @@
 }
 body{
     font-family: "Work Sans", sans-serif;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -36,6 +36,21 @@ h1{
     letter-spacing: -0.75px;
     text-align: left;
 }
+h6{
+font-family: Work Sans SemiBold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.25px;
+text-align: center;
+
+}
+p{
+font-family: Work Sans SemiBold;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+/* color:#0000008F; */
+}
 .btn{
     font-family: Work Sans;
     padding: 15px 50px;
@@ -46,8 +61,15 @@ h1{
 img{
     max-width: 100%;
 }
+.full-width{
+    width: 100%;
+}
 
-/* nav-styles */
+
+
+
+
+/* ------------------nav-styles------------------ */
 nav{
     display: flex;
     justify-content: space-between;
@@ -149,13 +171,14 @@ justify-content: space-between;
     font-weight: 500;
 }
 
-/* ------------hero-section----------- */
+/* ------------------------hero-section------------------------- */
 .hero-btn-01{
     border: none;
     background-color: #0000FF;
     line-height: 16px;
     letter-spacing: 1.25px;
     color: white;
+    width: 100%;
 }
 .hero-btn-02{
     border: none;
@@ -167,17 +190,153 @@ justify-content: space-between;
 .container-hero-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 50px 70px;
+    padding: 50px 120px;
+    background-image: url(./img/gems\ bg.png);
 }
 .hero-section-content{
     justify-content: start;
+    align-items: start;
+    margin: 0 30px;
+}
+.hero-section-img{
+    margin: 0 30px;
 }
 .hero-section-content h1{
     margin-bottom: 120px;
 }
+.hero-section-content-btn{
+    width: 100%;
+}
 
 
 
+
+
+/* -----------------------------section-03--------------------------- */
+.section-03{
+    background-color: #f3f8ff;
+    padding: 80px 300px;
+}
+.container-section-03{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+.section-03-div02-circle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 60px;
+}
+.section-03-div02 > p,
+.section-03-div03 > p,
+.section-03-div04 > p,
+.section-03-div05 > p,
+.section-03-div06 > p,
+.section-03-div07 > p{
+    color:#0000008F;
+    padding: 40px 0;
+    font-family: Work Sans SemiBold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #0000FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #0000FF;
+}
+.circle p{
+font-family: Work Sans SemiBold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.25px;
+text-align: center;
+}
+.circle-01{
+    background-color: #0000FF;
+    color: white;
+}
+.optipns-btn{
+    border: 2px solid #0000FF;
+    width: 50%;
+    border-radius: 10px;
+}
+.optipns-btn button{
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #0000FF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 0;
+}
+.border-0{
+    border: none !important;
+}
+.btn-active{
+    color: white;
+    background-color: #0000FF;
+}
+.option-btn-01{
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+.option-btn-04{
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.section-03-div04 input{
+    display: block !important;
+    border: 1px solid #b7b6b6;
+    border-radius: 8px;
+    width: 50%;
+    height: 40px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #0000008F;
+    padding: 20px;
+}
+.section-03-div05 > h1, .section-03-div06 > h1{
+font-family: Work Sans SemiBold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.25px;
+text-align: center;
+}
+.section-03-btn{
+    background-color: #0000FF;
+    border: none;
+    border-radius: 8px;
+    width: 50%;
+    height: 40px;
+    color: white;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    margin: 40px 0;
+}
+/* -----------------------------section-04--------------------------- */
+.section-04{
+    background-color: white;
+    width: 100%;
+    padding: 100px 120px;
+}
+.container-section-04{
+    background-color: #0000FF;
+}
 
 
 
@@ -212,9 +371,44 @@ justify-content: space-between;
     }
     .hero-section-content{
         padding: 20px 30px;
+        margin: 0;
     }
     .hero-section-img{
         padding: 0;
+        margin: 0;
     }
-
+/* ------------------section-03------------------- */
+.section-03{
+    padding: 40px 20px;
+}
+.container-section-03{
+    padding: 40px 16px 20px 16px;
+    border-radius: 20px;
+}
+.section-03-div02-circle{
+    gap: 20px;
+}
+.section-03-div02 > p,
+.section-03-div03 > p,
+.section-03-div04 > p,
+.section-03-div05 > p,
+.section-03-div06 > p,
+.section-03-div07 > p{
+    font-family: Work Sans SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+.optipns-btn{
+    width: 100%;
+}
+.section-03-div04 input{
+    width: 100%;
+    padding: 25px;
+}
+.section-03-btn{
+    margin: 20px 0;
+}
 }
