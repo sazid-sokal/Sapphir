@@ -1,0 +1,135 @@
+/* ----------------------------------------responsive----------------------------------------- */
+@media screen and (max-width: 688px) {
+    nav{
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .div-menu-btn .menu-btn i{
+        display: block;
+        color: black;
+    }
+    .nav-sec02, .nav-sec03{
+        display: none;
+    }
+    .responsive-nav{
+        display: block;
+    }
+    /* ------------hero-section----------- */
+    .container-hero-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hero-section-content h1{
+        margin-bottom: 50px;
+        font-family: "Work Sans", sans-serif;
+    }
+    .container-hero-section{
+        padding: 0;
+    }
+    .hero-section-content{
+        padding: 20px 30px;
+        margin: 0;
+    }
+    .hero-section-img{
+        padding: 0;
+        margin: 0;
+    }
+/* ------------------section-03------------------- */
+.section-03{
+    padding: 40px 20px;
+}
+.container-section-03{
+    padding: 40px 16px 20px 16px;
+    border-radius: 20px;
+}
+.section-03-div02-circle{
+    gap: 20px;
+}
+.section-03-div02 > p,
+.section-03-div03 > p,
+.section-03-div04 > p,
+.section-03-div05 > p,
+.section-03-div06 > p,
+.section-03-div07 > p{
+    font-family: Work Sans SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+.optipns-btn{
+    width: 100%;
+}
+.section-03-div04 input{
+    width: 100%;
+    padding: 25px;
+}
+.section-03-btn{
+    margin: 20px 0;
+}
+/* ------------------section-04------------------- */
+.section-04{
+    padding: 20px 40px;
+}
+.container-section-04{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-04-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.section-04-content-writting{
+    width: 100%;
+}
+.section-04-content-img{
+    width: 100%;
+}
+.section-04-content-writting h1{
+font-family: "Work Sans", sans-serif;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+text-align: center;
+}
+.section-04-content-writting h3{
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;  
+    text-align: center;
+}
+.section-04-content-writting button{
+    width: 100%;
+    margin: 10px 0;
+}
+.hidden-img{
+    display: inline-block;
+}
+.section-04-content-img{
+    display: none;
+}
+.section-04-content-writting li{
+    text-align: start;
+}
+.section-04-content-writting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------------difference-section------------------------------ */
+.difference-cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* padding-bottom: 30px; */
+}
+.container-difference h1{
+    font-size: 28px;
+}
+}
